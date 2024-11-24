@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <ul className="sidenav">
       <li>
-        <Link to="/ConnectorsService" className="logo">
+        <Link to="/" className="logo">
           <img src={CCLogo} />
         </Link>
       </li>
