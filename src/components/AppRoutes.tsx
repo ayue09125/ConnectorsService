@@ -7,7 +7,8 @@ import Campus from "../pages/Campus";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} /> {/* Route for Home page */}
+      <Route path="/ConnectorsService" element={<Home />} />{" "}
+      {/* Route for Home page */}
       <Route path="/ScholarshipReports" element={<ScholarshipReports />} />{" "}
       {/* Route for About page */}
       <Route path="/InternshipReports" element={<InternshipReports />} />
