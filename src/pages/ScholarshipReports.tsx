@@ -1,4 +1,5 @@
 // import React from "react";
+import report4 from "../assets/ssR/ScholarshipReport4.svg";
 import report3 from "../assets/ssR/ScholarshipReport3.svg";
 import report2 from "../assets/ssR/ScholarshipReport2.svg";
 import report1 from "../assets/ssR/ScholarshipReport1.svg";
@@ -11,6 +12,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report4} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://scholarships360.org/scholarships/search/commencing-at-community-college-essay-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 Commencing at Community College Essay Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://scholarships360.org/scholarships/search/tuition-solution-scholarship-for-stem-students/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 Tuition Solution Scholarship for STEM students
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/redefining-victory-scholarship/#ref=exclusive-scholarships"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $2,500 Redefining Victory Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report3} />
         </div>

@@ -1,3 +1,4 @@
+import report4 from "../assets/o&iR/Opportunities&InternshipsReport4.svg";
 import report3 from "../assets/o&iR/Opportunities&InternshipsReport3.svg";
 import report2 from "../assets/o&iR/Opportunities&InternshipsReport2.svg";
 import report1 from "../assets/o&iR/Opportunities&InternshipsReport1.svg";
@@ -9,6 +10,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report4} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://apply.workable.com/royal-electric/j/ABB72F6F4B/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Royal Electric Summer Internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://recruiting.ultipro.com/HPH1000/JobBoard/b4489760-cbeb-e7d1-67b6-4c4d81bfa181/OpportunityDetail?opportunityId=71ec6d0d-0cda-4f3d-8e3d-a211ca3a749f"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Food Safety & Quality Summer Internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/jobs/search/?currentJobId=4078327130&f_C=4896&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4067224267%2C4073624372%2C4066469948%2C4078356950%2C4068500716%2C4078327130%2C4062190171%2C4078618471%2C4075200736"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blue Shield of California Summer Internships (IT, marketing,
+                clinical strategy, etc.)
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report3} />
         </div>
