@@ -10,17 +10,17 @@ function Sidebar() {
         </Link>
       </li>
       <li>
-        <Link to="/ScholarshipReports" className="textTab">
+        <Link to="/ConnectorsService/ScholarshipReports" className="textTab">
           Scholarship Reports
         </Link>
       </li>
       <li>
-        <Link to="/InternshipReports" className="textTab">
+        <Link to="/ConnectorsService/InternshipReports" className="textTab">
           Opportunities & Internship Reports
         </Link>
       </li>
       <li>
-        <Link to="/Campus" className="textTab">
+        <Link to="/ConnectorsService/Campus" className="textTab">
           Campus
         </Link>
       </li>

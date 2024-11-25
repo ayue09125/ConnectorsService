@@ -9,10 +9,16 @@ function AppRoutes() {
     <Routes>
       <Route path="/ConnectorsService" element={<Home />} />{" "}
       {/* Route for Home page */}
-      <Route path="/ScholarshipReports" element={<ScholarshipReports />} />{" "}
+      <Route
+        path="/ConnectorsService/ScholarshipReports"
+        element={<ScholarshipReports />}
+      />{" "}
       {/* Route for About page */}
-      <Route path="/InternshipReports" element={<InternshipReports />} />
-      <Route path="/Campus" element={<Campus />} />
+      <Route
+        path="/ConnectorsService/InternshipReports"
+        element={<InternshipReports />}
+      />
+      <Route path="/ConnectorsService/Campus" element={<Campus />} />
     </Routes>
   );
 }
