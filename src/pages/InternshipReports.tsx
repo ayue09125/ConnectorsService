@@ -1,3 +1,4 @@
+import report5 from "../assets/o&iR/Opportunities&InternshipsReport5.svg";
 import report4 from "../assets/o&iR/Opportunities&InternshipsReport4.svg";
 import report3 from "../assets/o&iR/Opportunities&InternshipsReport3.svg";
 import report2 from "../assets/o&iR/Opportunities&InternshipsReport2.svg";
@@ -10,6 +11,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report5} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://apply.workable.com/murray-company/j/B77EA60F75/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Murray Company Construction Internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jobs.davey.com/job/Sacramento-Student-Internship-Arborist-Trainee-Sacramento%2C-CA-CA-95816/1209028000/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Arborist Trainee Internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/jobs/view/it-intern-at-pacific-coast-building-products-4081332116/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pacific Coast Building Products IT Internships
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report4} />
         </div>

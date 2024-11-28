@@ -1,4 +1,5 @@
 // import React from "react";
+import report5 from "../assets/ssR/ScholarshipReport5.svg";
 import report4 from "../assets/ssR/ScholarshipReport4.svg";
 import report3 from "../assets/ssR/ScholarshipReport3.svg";
 import report2 from "../assets/ssR/ScholarshipReport2.svg";
@@ -12,6 +13,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report5} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://bold.org/scholarships/bright-lights-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 Bright Lights Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/bright-lights-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 Kumar Family Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://apply.mykaleidoscope.com/scholarships/APIAScholarsApplication2526"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $2,500-$20,000 APIA Scholarships
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report4} />
         </div>
