@@ -1,3 +1,4 @@
+import report6 from "../assets/o&iR/Opportunities&InternshipsReport6.svg";
 import report5 from "../assets/o&iR/Opportunities&InternshipsReport5.svg";
 import report4 from "../assets/o&iR/Opportunities&InternshipsReport4.svg";
 import report3 from "../assets/o&iR/Opportunities&InternshipsReport3.svg";
@@ -11,6 +12,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report6} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.internsource.org/job-listings.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                City of Sacramento, Department of Public Works engineering
+                internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://careers.crowe.com/student-search"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Crowe business internships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.parkerdewey.com/career-launchers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Parker Dewey micro-internship opportunities
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report5} />
         </div>

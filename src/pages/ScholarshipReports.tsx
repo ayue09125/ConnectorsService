@@ -1,4 +1,4 @@
-// import React from "react";
+import report6 from "../assets/ssR/ScholarshipReport6.svg";
 import report5 from "../assets/ssR/ScholarshipReport5.svg";
 import report4 from "../assets/ssR/ScholarshipReport4.svg";
 import report3 from "../assets/ssR/ScholarshipReport3.svg";
@@ -13,6 +13,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report6} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.endcyberbullying.net/scholarship"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Three $1,000 Delete Cyberbullying Scholarships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://scholarships360.org/scholarships/search/making-the-leap-scholarship-for-transfer-students/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 "Making the Leap" Scholarship for Transfer Students
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://foundationccc.org/our-work/system-support/providing-financial-assistance-and-scholarships/california-community-colleges-scholarship-endowment-cccse/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Renewable $725 per semester CCCSE Osher Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report5} />
         </div>
