@@ -1,3 +1,4 @@
+import report7 from "../assets/ssR/ScholarshipReport7.svg";
 import report6 from "../assets/ssR/ScholarshipReport6.svg";
 import report5 from "../assets/ssR/ScholarshipReport5.svg";
 import report4 from "../assets/ssR/ScholarshipReport4.svg";
@@ -13,6 +14,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report7} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.chime.com/chime-scholars-foundation/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Renewable $5,000 Chime Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.westerndigital.com/company/corporate-responsibility/philanthropy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $5,000 U.S. Western Digital STEM Scholarships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.folsomgarden.org/2025-scholarship-program/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $5,000-$1,000 Folsom Garden Club 2025 Scholarship Program
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report6} />
         </div>

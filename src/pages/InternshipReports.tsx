@@ -1,3 +1,4 @@
+import report7 from "../assets/o&iR/Opportunities&InternshipsReport7.svg";
 import report6 from "../assets/o&iR/Opportunities&InternshipsReport6.svg";
 import report5 from "../assets/o&iR/Opportunities&InternshipsReport5.svg";
 import report4 from "../assets/o&iR/Opportunities&InternshipsReport4.svg";
@@ -12,6 +13,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report7} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.broadwaysacramento.com/education/professional-assistantship-program/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Broadway Sacramento Professional Assistantship Program
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/jobs/view/intern-at-wm-india-4133461363/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WM NCN Summer Internship Program
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.cdph.ca.gov/Programs/OPDE/Pages/Internship-Program.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                California Department of Public Health Internships & Volunteer
+                Internships
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report6} />
         </div>
