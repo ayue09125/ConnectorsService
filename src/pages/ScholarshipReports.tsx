@@ -1,3 +1,4 @@
+import report8 from "../assets/ssR/ScholarshipReport8.svg";
 import report7 from "../assets/ssR/ScholarshipReport7.svg";
 import report6 from "../assets/ssR/ScholarshipReport6.svg";
 import report5 from "../assets/ssR/ScholarshipReport5.svg";
@@ -14,6 +15,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report8} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.siliconvalleycf.org/scholarships/the-bright-futures-scholarship"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $10,000 Bright Futures Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.verifiedscholarships.com/scholarship-program/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 All Star Verified Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.genkellyscholarship.com/apply"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Gen and Kelly Tanabe Think about Your Future Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report7} />
         </div>

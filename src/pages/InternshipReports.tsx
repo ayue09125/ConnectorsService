@@ -1,3 +1,4 @@
+import report8 from "../assets/o&iR/Opportunities&InternshipsReport8.svg";
 import report7 from "../assets/o&iR/Opportunities&InternshipsReport7.svg";
 import report6 from "../assets/o&iR/Opportunities&InternshipsReport6.svg";
 import report5 from "../assets/o&iR/Opportunities&InternshipsReport5.svg";
@@ -13,6 +14,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report8} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=236728e1-f853-45ca-a70a-6c23bc2ca9cb&ccId=19000101_000001&lang=en_US&jobId=9201346389974_1&&source=EN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Public Policy Institute of California, Summer Intern Project:
+                California’s Changing College-Goers
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.breakthroughcollaborative.org/teach/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Breakthrough Collaborative Teaching Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://formationenv.bizmerlin.net/jobboard/#/position/view/347689/Intern_-_Scientist_Engineer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Formation Environmental Scientist/Engineer Intern
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report7} />
         </div>
