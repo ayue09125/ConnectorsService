@@ -1,3 +1,4 @@
+import report9 from "../assets/o&iR/Opportunities&InternshipsReport9.svg";
 import report8 from "../assets/o&iR/Opportunities&InternshipsReport8.svg";
 import report7 from "../assets/o&iR/Opportunities&InternshipsReport7.svg";
 import report6 from "../assets/o&iR/Opportunities&InternshipsReport6.svg";
@@ -14,6 +15,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report9} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://scc.losrios.edu/student-resources/panther-cares/money-matters-course"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Money Matters 6-week course at Sacramento City College
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jobs.ourcareerpages.com/job/926690?source=morrowmeadows&jobFeedCode=morrowmeadows"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Morrow-Meadows Corporation Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jobs.ryder.com/sacramento-ca/2025-summer-finance-intern-financial-planning-and-analysis-remote/7B828519EA804D3CAF520A1F5A3567D5/job/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ryder Summer Finance Intern (Financial Planning and Analysis)
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report8} />
         </div>

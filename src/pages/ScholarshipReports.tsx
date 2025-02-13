@@ -1,3 +1,4 @@
+import report9 from "../assets/ssR/ScholarshipReport9.svg";
 import report8 from "../assets/ssR/ScholarshipReport8.svg";
 import report7 from "../assets/ssR/ScholarshipReport7.svg";
 import report6 from "../assets/ssR/ScholarshipReport6.svg";
@@ -15,6 +16,43 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report9} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://bold.org/scholarships/mark-green-memorial-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Mark Green Memorial Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tactyc.org/Learn-About-Scholarships"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Teachers of Accounting at Two Year Colleges (TACTYC)
+                Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/eddie-hankins-medical-service-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $700 Eddie Hankins Medical Service Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report8} />
         </div>
