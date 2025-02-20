@@ -1,3 +1,4 @@
+import report10 from "../assets/o&iR/Opportunities&InternshipsReport10.svg";
 import report9 from "../assets/o&iR/Opportunities&InternshipsReport9.svg";
 import report8 from "../assets/o&iR/Opportunities&InternshipsReport8.svg";
 import report7 from "../assets/o&iR/Opportunities&InternshipsReport7.svg";
@@ -15,6 +16,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report10} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://strideinc.wd1.myworkdayjobs.com/en-US/SK/details/Financial-Systems-Intern--Summer_JR106934?q=Financial+Systems+Intern,+Summer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stride Financial Systems Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tealhq.com/job/social-media-intern-undergraduate-summer-2025_6438c81d-eb82-4a24-8b44-d15bf5a3b596"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Health Net Social Media Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://apply.workable.com/theshipyard/j/798F4A093E/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Intern at Shipyard
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report9} />
         </div>

@@ -1,3 +1,4 @@
+import report10 from "../assets/ssR/ScholarshipReport10.svg";
 import report9 from "../assets/ssR/ScholarshipReport9.svg";
 import report8 from "../assets/ssR/ScholarshipReport8.svg";
 import report7 from "../assets/ssR/ScholarshipReport7.svg";
@@ -16,6 +17,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report10} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://bold.org/scholarships/student-life-photography-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500 Student Life Photography Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/expandyourhorizons/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,113 Across Cultures "Expand Your Horizons" Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.1fbusascholarship.com/enter?submissionGuid=4a2383fc-0112-46f0-a8f8-f5e4940a908a&__hstc=158910821.87e4a67204aa589a0336f51c40aceeb2.1740083951985.1740083951985.1740083951985.1&__hssc=158910821.1.1740083951985&__hsfp=3568896045"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $2,000 1st Financial Bank USA Financial Goals Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report9} />
         </div>
