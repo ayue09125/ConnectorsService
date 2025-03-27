@@ -1,3 +1,4 @@
+import report11 from "../assets/ssR/ScholarshipReport11.svg";
 import report10 from "../assets/ssR/ScholarshipReport10.svg";
 import report9 from "../assets/ssR/ScholarshipReport9.svg";
 import report8 from "../assets/ssR/ScholarshipReport8.svg";
@@ -17,6 +18,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report11} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://jnylaw.com/scholarship/distracted-driving-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Defense Against Distracted Driving Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.casrf.org/scholarship"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Scottish Rite Foundation Scholarships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://learnmore.scholarsapply.org/placeworks/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $5,000 PlaceWorks Scholarship Program
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report10} />
         </div>

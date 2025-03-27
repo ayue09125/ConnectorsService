@@ -1,3 +1,4 @@
+import report11 from "../assets/o&iR/Opportunities&InternshipsReport11.svg";
 import report10 from "../assets/o&iR/Opportunities&InternshipsReport10.svg";
 import report9 from "../assets/o&iR/Opportunities&InternshipsReport9.svg";
 import report8 from "../assets/o&iR/Opportunities&InternshipsReport8.svg";
@@ -16,6 +17,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report11} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.extern.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Extern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://recruiting2.ultipro.com/BRO1018BRACA/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e/OpportunityDetail?opportunityId=12a00635-a27c-45ff-baa7-500371414bee"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Brown and Caldwell Electrical Engineering Internship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.yelp.careers/us/en/job/13389/Community-Intern-Sacramento"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Yelp Community Intern
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report10} />
         </div>
