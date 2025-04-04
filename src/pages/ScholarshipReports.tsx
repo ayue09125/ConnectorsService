@@ -1,3 +1,4 @@
+import report12 from "../assets/ssR/ScholarshipReport12.svg";
 import report11 from "../assets/ssR/ScholarshipReport11.svg";
 import report10 from "../assets/ssR/ScholarshipReport10.svg";
 import report9 from "../assets/ssR/ScholarshipReport9.svg";
@@ -18,6 +19,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report12} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://brettalleyscholarship.com/bret-talley-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Bret Talley Scholarship for Future Tech Pioneers 2025
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://sacramento-ca.aauw.net/programs/scholarships/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $3,000 AAUW Sacramento scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.donaldbellaw.com/scholarship"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,500 Uplifting Communities Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report11} />
         </div>

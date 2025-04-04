@@ -1,3 +1,4 @@
+import report12 from "../assets/o&iR/Opportunities&InternshipsReport12.svg";
 import report11 from "../assets/o&iR/Opportunities&InternshipsReport11.svg";
 import report10 from "../assets/o&iR/Opportunities&InternshipsReport10.svg";
 import report9 from "../assets/o&iR/Opportunities&InternshipsReport9.svg";
@@ -17,6 +18,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report12} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.enterprisemobility.com/en/careers/job.html/504752/sacramento/management-trainee-summer-intern#accordion-8c80719b7e"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Management Trainee Summer Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://natsec.usajobs.gov/job/786863700"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                U.S. Army Corps of Engineers student engineering trainee
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/jobs/view/4191491790/?eBP=CwEAAAGV_eM-9LZF93QZZU9i5ksyKDuCOEHXTZT4NNdalO4LVOeeX8wYa8hgFlmzCk_ravRBZQeO_DK5S01ygUVQ7yCjl57MUqYnAhhnDACdfarTbXvkAZxhZQzUe_x_3N1H-nrVopm_WZXH2zJnfJt879rgVcYqs0s3FzsX3vf6J4_1vLmwNz39Hp0TlvoYHuGFXtn8ZRoPCnNlrI89NqrysMBK3GinqTVlgiPhZmFJIG048bEkNlU5mAe5Ye8ykDfxuMM9_WRrxwNJlbfkPm20FNH8nnqwEOdummoIPmvetGYfSBRF_HCMG325Ik8QsutiJjyMVGGwBCCCd3Q-GClwNKNUjYQDN4jao1TkaMcqJIb3RKmjxfMM-EImi4ueZLcbMq5d4NEB9R-B8O1NRx0n-IQ1-KH09nqkdjwN3_0CNBDFgCtpcnFi2U_nFYgTXi0hCW6eb98uH0Y1aUWSnVOplxWiNuMvSClIMZiCrDrZYy0nUmuxxzxzMjFw9tNTt1iF-Kd1lQ&refId=2dPr3e66KvXx1SZ0aiOMng%3D%3D&trackingId=dY%2FspnHFBuoV%2FhuuwJpApg%3D%3D&trk=flagship3_search_srp_jobs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                California Department of Health Care Services TCM Student
+                Assistant
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report11} />
         </div>
