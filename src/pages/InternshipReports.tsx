@@ -1,3 +1,4 @@
+import report13 from "../assets/o&iR/Opportunities&InternshipsReport13.svg";
 import report12 from "../assets/o&iR/Opportunities&InternshipsReport12.svg";
 import report11 from "../assets/o&iR/Opportunities&InternshipsReport11.svg";
 import report10 from "../assets/o&iR/Opportunities&InternshipsReport10.svg";
@@ -18,6 +19,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report13} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.governmentjobs.com/careers/westsacramento?keywords=intern&page=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Summer STEPS Student Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://apply.workable.com/movement-labs/j/3070A2931D/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Movement Labs Summer Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://calagjobs.com/job/grow-west-woodland-full-time-marketing-intern/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Grow West Marketing Intern
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report12} />
         </div>

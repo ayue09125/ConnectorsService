@@ -1,3 +1,4 @@
+import report13 from "../assets/ssR/ScholarshipReport13.svg";
 import report12 from "../assets/ssR/ScholarshipReport12.svg";
 import report11 from "../assets/ssR/ScholarshipReport11.svg";
 import report10 from "../assets/ssR/ScholarshipReport10.svg";
@@ -19,6 +20,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report13} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.hriresearch.org/scholarship-application-and-resources"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Horticultural Research Institute Scholarships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.scholarships.com/scholarships/social-media-safety-video-essay-contest"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,500 Social Media Safety Video Essay Contest
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.usbank.com/about-us-bank/community/student-scholarship.html?ecid=PS_76736&ds_e=GOOGLE&ds_c=Student+Scholarship_(Prospecting-BD)_BD_All_All_NAT_13152&ds_a=Brand_Exact+%26+Phrase&ds_k=us+bank+student+scholarship&ds_kids=p81487336284&i=1&gad_source=1&gclid=Cj0KCQjw2N2_BhCAARIsAK4pEkWdEvVVt0rl8maX9b6cio3CD4QALMPy4zMPScOlM1ThbgfmVkjEDyEaAuopEALw_wcB&gclsrc=aw.ds"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                up to $20,000 US Bank Student Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report12} />
         </div>
