@@ -1,3 +1,4 @@
+import report14 from "../assets/ssR/ScholarshipReport14.svg";
 import report13 from "../assets/ssR/ScholarshipReport13.svg";
 import report12 from "../assets/ssR/ScholarshipReport12.svg";
 import report11 from "../assets/ssR/ScholarshipReport11.svg";
@@ -20,6 +21,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report14} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://bold.org/scholarships/ethel-hayes-destigmatization-of-mental-health-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $4,200 Ethel Hayes Destigmatization of Mental Health Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/our-destiny-future-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $700 Our Destiny Our Future Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bold.org/scholarships/young-women-in-stem-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $5,000 Young Women in STEM Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report13} />
         </div>

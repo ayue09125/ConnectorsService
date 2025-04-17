@@ -1,3 +1,4 @@
+import report14 from "../assets/o&iR/Opportunities&InternshipsReport14.svg";
 import report13 from "../assets/o&iR/Opportunities&InternshipsReport13.svg";
 import report12 from "../assets/o&iR/Opportunities&InternshipsReport12.svg";
 import report11 from "../assets/o&iR/Opportunities&InternshipsReport11.svg";
@@ -19,6 +20,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report14} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.indeed.com/viewjob?jk=8724903dd2f90b15"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bend Genetics Environmental Science Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.campusreel.org/jobs/state/california/city/sacramento/campus-marketing-outreach-intern?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CampusReel Campus Marketing & Outreach Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.internsource.org/job-listings.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                City of Sacramento Department of Public Works, Recycling and
+                Solid Waste Division Student Intern
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report13} />
         </div>
