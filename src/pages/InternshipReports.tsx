@@ -1,3 +1,4 @@
+import report15 from "../assets/o&iR/Opportunities&InternshipsReport15.svg";
 import report14 from "../assets/o&iR/Opportunities&InternshipsReport14.svg";
 import report13 from "../assets/o&iR/Opportunities&InternshipsReport13.svg";
 import report12 from "../assets/o&iR/Opportunities&InternshipsReport12.svg";
@@ -20,6 +21,43 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report15} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/jobs/view/college-intern-communications-and-public-affairs-at-city-of-rancho-cordova-4212025599/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                City of Rancho Cordova college intern, Communications and Public
+                Affairs Department
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://ciginsurance.hrmdirect.com/employment/job-openings.php?search=true&jbsrc=1025&dept=-1&city=Roseville&state=-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Capital Insurance Group IT positions
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.juma.org/apply/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Juma
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report14} />
         </div>

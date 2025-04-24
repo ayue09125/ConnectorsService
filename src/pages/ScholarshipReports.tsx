@@ -1,3 +1,4 @@
+import report15 from "../assets/ssR/ScholarshipReport15.svg";
 import report14 from "../assets/ssR/ScholarshipReport14.svg";
 import report13 from "../assets/ssR/ScholarshipReport13.svg";
 import report12 from "../assets/ssR/ScholarshipReport12.svg";
@@ -21,6 +22,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report15} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.collegeispower.com/scholarship.cfm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 College is Power Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.theinjurylawyers.com/about/community-involvement/admit-to-quit-scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,500 Admit It To Quit It: End Distracted Driving Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://butlerfirm.com/about-the-firm/scholarship/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Make the World Better Scholarship
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report14} />
         </div>
