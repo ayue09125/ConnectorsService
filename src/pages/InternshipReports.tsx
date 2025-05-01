@@ -1,3 +1,4 @@
+import report16 from "../assets/o&iR/Opportunities&InternshipsReport16.svg";
 import report15 from "../assets/o&iR/Opportunities&InternshipsReport15.svg";
 import report14 from "../assets/o&iR/Opportunities&InternshipsReport14.svg";
 import report13 from "../assets/o&iR/Opportunities&InternshipsReport13.svg";
@@ -21,6 +22,42 @@ const InternshipReports = () => {
         <h1>Opportunities and Internships Reports</h1>
       </div>
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report16} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://apply.workable.com/royal-electric/j/1CA6D786EF/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Royal Electric Marketing Intern
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://careers.trccompanies.com/careers-home/jobs?stretchUnit=MILES&stretch=10&location=sacramento&categories=Interns&page=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TRC Electrical/Mechanical/Civil Engineering-related Internships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.senate.ca.gov/senatejobs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                California State Senate Jobs
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report15} />
         </div>

@@ -1,3 +1,4 @@
+import report16 from "../assets/ssR/ScholarshipReport16.svg";
 import report15 from "../assets/ssR/ScholarshipReport15.svg";
 import report14 from "../assets/ssR/ScholarshipReport14.svg";
 import report13 from "../assets/ssR/ScholarshipReport13.svg";
@@ -22,6 +23,42 @@ const ScholarshipReports = () => {
       </div>
 
       <body className="reportList">
+        <div className="submodule2">
+          <img src={report16} />
+        </div>
+        <div className="submodule2">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.jumpstart-scholarship.net/application-us/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jumpstart Scholarships
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://accessscholarships.com/1k-too-cool-to-pay-for-school/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 Too Cool To Pay For School Scholarship
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://scholarships360.org/scholarships/search/pen-to-paper-scholarship-for-storytellers/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $1,000 "Pen to Paper” Scholarship for Storytellers
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="submodule2">
           <img src={report15} />
         </div>
